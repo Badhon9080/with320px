@@ -1,0 +1,464 @@
+/*xs*/
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+    /*Nav Section CSS Start*/
+#nav{
+    background-color: #02918c;
+    /*
+    position: sticky;
+    top: 0;
+    */
+}
+#main_menu ul li a{
+    text-align: center;
+    margin: auto;
+    font-size: 8px;
+    padding: 13px;
+    transition: all linear 0.5s;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+#main_menu ul li:hover a{
+    color: #cfc91d;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/BaNNer.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 319px;
+}
+#banner::before{
+    position: absolute;
+    background-color: rgba(64, 81, 82, 0.56);
+    inset: 0;
+    content: '';
+    z-index: -1;
+}
+.banner_content{
+    margin-top: 62px;
+}
+.banner_content_Lorem_headings h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 13px;
+}
+.banner_content_incidunt_heading {
+    margin-top: 7px;
+}
+.banner_content_incidunt_heading h1{
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+.banner_content_paragraph{
+    margin-top: 4px;
+}
+.banner_content_paragraph p{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 9px;
+}
+.banner_dividend_iMAge{
+    margin-top: 15px;
+}
+.banner_dividend_iMAge img{
+    width: 57px;
+}
+.banner_know_more{
+    margin-top: 21px;
+}
+.banner_know_more a{color: #0b1016;
+    background-color: #cfc91d;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    font-size: 8px;
+    padding: 7px 15px;
+    text-transform: uppercase;
+}
+.banner_know_more:hover a{
+    border-radius: 8px;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_content{ margin-top: 12px;}
+.about_content_heading h2{
+    color: #02918c;
+    margin: auto;
+    font-weight: bold;
+     font-size: 19px;
+}
+.about_content_dividend_paragraph p{
+    margin: auto;
+    color: #7e8287;
+    font-size: 6px;
+}
+.about_content_paragraph{
+    margin-top: 13px;
+}
+.about_content_paragraph p{
+    color: #7e8287;
+   margin: auto;
+   width: 296px;
+  font-size: 9px;
+}
+.about_content_paragraph span{
+    font-weight: bold;
+    font-size:16px;
+}
+.about_content_section_parts{margin-top: 52px;
+}
+.about_monitor_section{
+    height: 184px;
+    margin: auto;
+}
+.about_bulb_section{height: 192px;
+    border-right: 1px solid #d9dbdb;
+   border-right-color: transparent;
+    margin: auto;
+}
+.about_pen_section{height: 192px;
+    border-right: 1px solid #d9dbdb;
+    border-right-color: transparent;
+    margin: auto;
+}
+.about_setting_section{height: 192px;
+    border-right: 1px solid #d9dbdb;
+   border-right-color: transparent;
+    margin: auto;
+}
+/*
+.setting-action{
+    margin-top: 32px;
+}
+.monitor-action {
+    margin-top: 36px;
+}
+*/
+.about_title_section_img{
+    margin-top: 30px;
+}
+.about_title_section_heading{
+    margin-top: 13px;
+}
+.about_title_section_heading h4{
+    color: #7e8287;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.about_title_section_paragraph{
+    margin-top: 13px;
+}
+.about_title_section_paragraph P{
+    color: #7e8287;
+    margin: auto;
+    font-size: 11px;
+    width: 166px;
+}
+/*//About Section CSS End*/
+/*Service Section CSS Start*/
+#services{
+    margin-top: 22px;
+    background: #f0f0e8;
+    background-size: cover;
+    background-position: center;
+    height: 790px;
+}    
+.service_content{
+    margin-top: 32px;
+}
+.service_content_heading h2{
+    text-align: center;
+    color: #02918c;
+    margin: auto;
+    font-weight: bold;
+     font-size: 19px;
+}
+.service_content_dividend_paragraph{
+    margin-top: 9px;
+}
+.service_content_dividend_paragraph p{
+    text-align: center;
+    margin: auto;
+    color: #7e8287;
+    font-size: 6px;
+}
+.service_content_paragraph{
+    margin-top: 9px;
+}
+.service_content_paragraph P{Line-Height: 22px;
+    text-align: center;
+    color: #7e8287;
+    margin: auto;
+    width: 296px;
+   font-size: 9px;
+}
+.service_section_title_parts{ Margin-Top: 22px;}
+.service_part_title_heading{
+    margin-top: 13px;
+}
+.service_part_title_heading h4{
+    color: #7e8287;
+    font-weight: bold;
+    font-size: 13px;
+}
+.service_part_title_paragraph{
+    margin-top: 13px;
+}
+.service_part_title_paragraph p{
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+.service_world_section_title_part{
+    text-align: center;
+    margin: auto
+}
+.world-action{
+    margin-top: 32px;
+}
+.service_zoom_section_title_part{
+    text-align: center;
+    margin: auto
+}
+.zoom-action{
+    margin-top: 32px;
+}
+.service_eco_title_section_part{
+    text-align: center;
+    margin: auto
+}
+.eco-action{
+    margin-top: 32px;
+}
+.service_watch_section_title_part{
+    text-align: center;
+    margin: auto
+}
+.watch-action{
+    margin-top: 32px;
+}
+/*//Service Section CSS End*/
+/*Myworks Section CSS Start */
+.mywork_content{
+    margin-top: 32px;
+}
+.mywork_content_heading h2{
+    color: #02918c;
+    margin: auto;
+    font-weight: bold;
+     font-size: 19px;
+}
+.mywork_content_dividend_paragraph{
+    margin-top: 9px;
+}
+.mywork_content_dividend_paragraph p{
+    color: #7e8287;
+    margin: auto;
+    font-size: 9px;
+}
+.mywork_content_paragraph{
+    margin-top: 9px;
+}
+.mywork_content_paragraph P{Line-Height: 22px;
+    text-align: center;
+    color: #7e8287;
+    margin: auto;
+    width: 296px;
+   font-size: 9px;
+}
+.mywork_two_title_section_part{ width: 100%;}
+.mywork_one_title_section_part{ width: 100%;}
+.mywork_three_title_section_part{ width: 100%;}
+.mywork_four_title_section_part{ width: 100%;}
+.mywork_five_title_section_part{ width: 100%;}
+.mywork_six_title_section_part{ width: 100%;}
+.mywork_seven_title_section_part{ width: 100%;}
+.mywork_eight_title_section_part{ width: 100%;}
+.mywork_title_section_parts{
+    margin-top: 32px;
+}
+.mywork_title_image{
+    position: relative;
+}
+.mywork_title_overflow {/*left: 22px;*/
+    background-color: rgba(21, 134, 128, 0.68);
+    position: absolute;
+    inset: 28px;
+    transition: all linear 0.5s;
+    visibility: hidden; 
+    opacity: 0;
+}
+.mywork_title_image:hover .mywork_title_overflow{
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_title_heading{
+    margin-top: 42px;
+}
+.mywork_title_heading h4{
+    font-weight: bold;
+    margin: auto;
+    color: #ffffff;
+    font-size: 13px;
+}
+.mywork_title_paragraph{
+    margin-top: 7px;
+}
+.mywork_title_paragraph p{
+    color: #ffffff;
+    margin: auto;
+    font-size: 11px;
+    width: 166px;
+}
+/*//Myworks Section CSS End*/
+/*Contact Section CSS Start*/
+.contact_content{
+    margin-top: 32px;
+}
+.contact_content_heading h2{
+    color: #02918c;
+    margin: auto;
+    font-weight: bold;
+     font-size: 19px;
+}
+.contact_content_dividend_paragraph{
+    margin-top: 9px;
+}
+.contact_content_dividend_paragraph p{
+    color: #7e8287;
+    margin: auto;
+    font-size: 9px;
+}
+.contact_content_paragraph{
+    margin-top: 9px;
+}
+.contact_content_paragraph P{Line-Height: 22px;
+    text-align: center;
+    color: #7e8287;
+    margin: auto;
+    width: 296px;
+   font-size: 9px;
+}
+.contact_section_form_parts{
+    background-color: #0b0b0b;
+    margin-top: 38px;
+    height: 491px;
+}
+.contact_nameS_form input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.contact_nameS_form input{
+    border-left: none;
+    margin-top: 52px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 13px;
+    width: 287px;
+    font-size: 9px;
+}
+.contact_emaiL_form input{
+    border-left: none;
+    margin-top: 52px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 13px;
+    width: 287px;
+    font-size: 9px;
+}
+.contact_emaiL_form input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.contact_Message_form textarea{
+    border-left: none;
+    margin-top: 52px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 13px;
+    width: 308px;
+    font-size: 9px;
+}
+.contact_Message_form textarea:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.button button{color: #0b1016;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    padding: 9px 13px;
+    font-size: 9px;
+    background-color: #cfc91d;
+}
+
+.button{
+    margin-top: 68px;
+}
+.button:hover button{
+    border-radius: 13px;
+}
+
+/*//Contact Section CSS End*/
+/*End Section CSS Start*/
+
+#end{
+    background-color: #000;
+    height: 51px;
+}
+.end_content_paragraph{
+    margin-top: 18px;
+}
+.end_content_paragraph p{
+    color: #7e8287;
+    margin: auto;
+    font-size: 9px;
+}
+/*//End Section CSS End*/
+}
+
+
+
+
+
+
+
+
+
+/*sm*/
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+/* md */
+@media (min-width: 768px) and (max-width: 991.98px) {}
+
+/*lg*/
+
+@media (min-width: 992px) and (max-width:1199.98px) {}
+/*xl*/
+@media (min-width: 1200px) and (max-width:1399.98px){}
+
+/*xxl*/
+@media (min-width:1400px) {}
+

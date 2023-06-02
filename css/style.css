@@ -1,0 +1,399 @@
+/*
+Theme Name: 
+Author: 
+Version: 1.0.0
+
+
+Table of Content
+===================================================
+
+    1. Common Css
+    2. Nav Section
+    3. Banner Section
+*/
+/* Common Css Start */
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ol,ul{
+    list-style-type: none;
+}
+
+a,a:hover{
+    text-decoration: none;
+}
+/*//Common CSS End*/
+/*Nav Section CSS Start*/
+#nav{
+    background-color: #02918c;
+   /*
+    position: sticky;
+    top: 0;
+    */
+}
+#main_menu ul li a{font-size: 12px;
+    padding: 20px;
+    transition: all linear 0.5s;
+    font-weight: bold;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+#main_menu ul li:hover a{
+    color: #cfc91d;
+}
+/*//Nav Section CSS End*/
+/*Banner Section CSS Start*/
+#banner{
+    background-image: url(../img/BaNNer.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    height: 700px;
+}
+#banner::before{
+    position: absolute;
+    background-color: rgba(64, 81, 82, 0.56);
+    inset: 0;
+    content: '';
+    z-index: -1;
+}
+.banner_content{
+    margin-top: 200px;
+}
+.banner_content_Lorem_headings h2{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 30px;
+}
+.banner_content_incidunt_heading {
+    margin-top: 20px;
+}
+.banner_content_incidunt_heading h1{
+    letter-spacing: 30px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 68px;
+    text-transform: uppercase;
+}
+.banner_content_paragraph{
+    margin-top: 16px;
+}
+.banner_content_paragraph p{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 18px;
+}
+.banner_dividend_iMAge{
+    margin-top: 32px;
+}
+.banner_know_more{
+    margin-top: 43px;
+}
+.banner_know_more a{color: #0b1016;
+    background-color: #cfc91d;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    font-size: 14px;
+    padding: 13px 33px;
+    text-transform: uppercase;
+}
+.banner_know_more:hover a{
+    border-radius: 8px;
+}
+/*//Banner Section CSS End*/
+/*About Section CSS Start*/
+.about_content{
+    margin-top: 72px;
+}
+.about_content_heading h2{
+    color: #02918c;
+    font-weight: bold;
+    font-size: 46px;
+}
+.about_content_dividend_paragraph p{
+    color: #7e8287;
+}
+.about_content_paragraph{
+    margin-top: 20px;
+}
+.about_content_paragraph p{
+    color: #7e8287;
+    margin: auto;
+    width: 856px;
+}
+.about_content_paragraph span{
+    font-size:23px;
+    font-weight: bold;
+}
+.about_content_section_parts{
+    margin-top: 72px;
+}
+
+.about_bulb_section{height: 212px;
+    border-right: 1px solid #d9dbdb;
+    
+}
+.about_pen_section{height: 212px;
+    border-right: 1px solid #d9dbdb;
+    
+}
+.about_setting_section{ height: 212px;
+    border-right: 1px solid #d9dbdb;
+    
+}
+.about_title_section_img{
+    margin-top: 30px;
+}
+.about_title_section_heading{
+    margin-top: 20px;
+}
+.about_title_section_heading h4{
+    color: #7e8287;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.about_title_section_paragraph{
+    margin-top: 20px;
+}
+.about_title_section_paragraph P{
+    color: #7e8287;
+    margin: auto;
+    font-size: 11px;
+    width: 166px;
+}
+/*//About Section CSS End*/
+/*Service Section CSS Start*/
+#services{
+    margin-top: 22px;
+    background-image: url(../img/typing[background].jps);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}    
+.service_content{
+    margin-top: 52px;
+}
+.service_content_heading h2{
+    color: #02918c;
+    font-weight: bold;
+    font-size: 46px;
+}
+.service_content_dividend_paragraph{
+    margin-top: 32px;
+}
+.service_content_dividend_paragraph p{
+    color: #7e8287;
+}
+.service_content_paragraph{
+    margin-top: 32px;
+}
+.service_content_paragraph P{
+    line-height: 28px;
+    color: #7e8287;
+    width: 509px;
+}
+.service_section_title_parts{
+    margin-top: 72px;
+}
+
+.service_part_title_heading{
+    margin-top: 20px;
+}
+
+.service_part_title_heading h4{
+    color: #7e8287;
+    font-weight: bold;
+    font-size: 16px;
+}
+.service_part_title_paragraph{
+    margin-top: 20px;
+}
+.service_part_title_paragraph p{
+    color: #7e8287;
+    font-size: 11px;
+    width: 166px;
+}
+.service_eco_title_section_part{
+    margin-top: 32px;
+}
+.service_watch_section_title_part{
+    margin-top: 32px;
+}
+/*//Service Section CSS End*/
+/*Myworks Section CSS Start */
+.mywork_content{
+    margin-top: 72px;
+}
+.mywork_content_heading h2{
+    color: #02918c;
+    font-weight: bold;
+    font-size: 46px;
+}
+.mywork_content_dividend_paragraph{
+    margin-top: 20px;
+}
+.mywork_content_dividend_paragraph p{
+    color: #7e8287;
+}
+.mywork_content_paragraph{
+    margin-top: 20px;
+}
+.mywork_content_paragraph P{
+    color: #7e8287;
+    line-height: 30px;
+    margin: auto;
+    width: 660px;
+}
+.mywork_title_section_parts{
+    margin-top: 72px;
+}
+.mywork_title_image{
+    position: relative;
+}
+.mywork_title_overflow {
+    /*left: 22px;*/
+    background-color: rgba(21, 134, 128, 0.68);
+    position: absolute;
+    inset: 28px;
+    transition: all linear 0.5s;
+    visibility: hidden; 
+    opacity: 0;
+}
+.mywork_title_image:hover .mywork_title_overflow{
+    visibility: visible;
+    opacity: 1;
+}
+.mywork_title_heading{
+    margin-top: 62px;
+}
+.mywork_title_heading h4{
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 16px;
+}
+.mywork_title_paragraph{
+    margin-top: 13px;
+}
+.mywork_title_paragraph p{
+    color: #ffffff;
+    margin: auto;
+    font-size: 11px;
+    width: 166px;
+}
+/*//Myworks Section CSS End*/
+/*Contact Section CSS Start*/
+.contact_content{
+    margin-top: 72px;
+}
+.contact_content_heading h2{
+    color: #02918c;
+    font-weight: bold;
+    font-size: 46px;
+}
+.contact_content_dividend_paragraph{
+    margin-top: 20px;
+}
+.contact_content_dividend_paragraph p{
+    color: #7e8287;
+}
+.contact_content_paragraph{
+    margin-top: 20px;
+}
+.contact_content_paragraph P{
+    color: #7e8287;
+    line-height: 30px;
+    margin: auto;
+    width: 660px;
+}
+.contact_section_form_parts{
+    background-color: #0b0b0b;
+    margin-top: 68px;
+    height: 600px;
+}
+.contact_nameS_form input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.contact_nameS_form input{
+    border-left: none;
+    margin-top: 52px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 13px;
+    width: 649px;
+}
+.contact_emaiL_form input{
+    border-left: none;
+    margin-top: 52px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 13px;
+    width: 649px;
+}
+.contact_emaiL_form input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.contact_Message_form textarea{
+    border-left: none;
+    margin-top: 62px;
+    border-bottom: 2px solid #7e8287;
+    color: #7e8287;
+    background: none;
+    border-top: none;
+    text-align: center;
+    border-right: none;
+    padding-bottom: 18px;
+    width: 933px;
+}
+.contact_Message_form textarea:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+.button button{color: #0b1016;
+    font-weight: bold;
+    transition: all linear 0.5s;
+    padding: 13px 33px;
+    font-size: 14px;
+    background-color: #cfc91d;
+}
+
+.button{
+    margin-top: 68px;
+}
+.button:hover button{
+    border-radius: 13px;
+}
+
+/*//Contact Section CSS End*/
+/*End Section CSS Start*/
+
+#end{
+    background-color: #000;
+    height: 71px;
+}
+.end_content_paragraph{
+    margin-top: 32px;
+}
+.end_content_paragraph p{
+    color: #7e8287;
+    font-size: 13px;
+}
+/*//End Section CSS End*/
